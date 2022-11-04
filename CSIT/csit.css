@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(91, 91, 105, 0.532);
+}
+
+.showcase{
+    margin-top: 100px;
+}
+
+h2{
+    margin: 10px 0;
+}
+
+.container ul{
+    list-style-type: none;
+}
+
+.showcase-container a{
+    color: black;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.showcase-container{
+    display: grid;
+    max-width: 1300px;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    justify-content: center;
+}
+
+
+.showcase-container div{
+    width: 360px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
