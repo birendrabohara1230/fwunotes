@@ -1,38 +1,33 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --primary-color: #1976d2;
 }
 
-body{
-    background-color: gray;
+body {
+    background-color: gray
 }
 
-h1{
+h1 {
     margin: 10px 0;
     color: #fff;
 }
 
-.navbar{
-    background-color: var(--primary-color);
-    height: 70px;
-}
-
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
 /* Showcase */
 
-.service h1{
+.service h1 {
     color: black;
     text-align: center;
     margin: 50px 0;
@@ -40,96 +35,116 @@ ul{
 
 
 
-.service-container{
+.service-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin: 10px 100px;
+    margin: 10px 20px;
     gap: 10px;
-    height: 400px;
     justify-content: center;
     align-items: center;
 }
 
-.service-container div{
-    background-color: #fff;
-    border-radius: 10px;
-    height: 400px;
+@media (max-width: 800px){
+    .service-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
-.service-container img{
+@media (max-width: 1000px) and (min-width: 800px){
+    .service-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.service-container div {
+    background-color: #fff;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.service-container img {
     margin-top: 40px;
     margin-left: 10px;
 }
 
-.service-container p{
+.service-container p {
     color: black;
     margin: 10px;
 }
 
-.service-container h2{
+.service-container h2 {
     color: black;
     margin: 10px;
 }
 
 
-.background-image{
+.background-image {
     object-fit: cover;
     height: 500px;
     object-fit: cover;
 }
 
-.background-image img{
+.background-image img {
     height: 100%;
     width: 100%;
 }
 
-.services{
+.services {
     height: 600px;
     background-color: rgb(196, 173, 173);
 }
 
 
-/* Navbar */
 
-.navbar ul{
-    display: flex;
-}
 
-.navbar a{
-    color: #fff;
-    padding: 10px;
-    margin: 0 5px;
-}
-
-.navbar a:hover{
-    border-bottom: 2px #fff solid;
-}
-
-.navbar .flex{
-    justify-content: space-between;
-}
-
-.team div{
+.team div {
     text-align: center;
 }
 
-.team img{
+.team img {
     border-radius: 50%;
 }
 
 
-/* Utilities */
-.navbar-container{
-    max-width: 1100px;
+/* Utilities */ */
+.navbar-container {
+    min-width: 1100px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
 }
 
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-top: 50px;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(103, 100, 100);
+}
+
+.footer-container div {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.footer-container div h3{
+    color: black;
+    font-size: larger;
+}
+
+.footer-container div p a{
+    text-decoration: none;
+    color: white;
 }

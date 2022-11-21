@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,15 +10,23 @@
 .container{
     font-family: 'Times New Roman', Times, serif;
     width: 880px;
-    height: 1100px;
+    height: 1500px;
     border: 1px solid black;
     margin: 10px;
     padding: 30px;
 }
 
+@media (max-width: 600px){
+    .container{
+        height: 2500px;
+    }
+}
+
 .main{
     display: flex;
     justify-content: center;
+    color: rgb(34, 26, 26);
+    font-family: 'Roboto', sans-serif;
 }
 .paper-header{
     text-align: center;
@@ -28,7 +38,6 @@
     height: 50px;
     justify-content: center;
     align-items: center;
-    background-color: #e0e0e0;
 }
 
 .paper-year div{
@@ -68,6 +77,10 @@
   margin-left: 50px;
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+.questions li{
+    line-height: 35px;
 }
 
 table th, td{

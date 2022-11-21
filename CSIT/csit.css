@@ -33,8 +33,8 @@ h2{
     grid-template-columns: repeat(4, 1fr); 
     gap: 10px; 
     justify-content: center;
+    justify-items: center;
 }
-
 
 .showcase-container div{
     width: 360px;
@@ -42,4 +42,39 @@ h2{
     background-color: white;
     border-radius: 10px;
     text-align: center;
+}
+
+@media (max-width: 800px){
+    .showcase-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .showcase-container div{
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1000px){
+    .showcase-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .showcase-container div{
+        width: 400px;
+        height: 250px;
+        background-color: white;
+        border-radius: 10px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px){
+    .showcase-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
