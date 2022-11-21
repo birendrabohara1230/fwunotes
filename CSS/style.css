@@ -12,6 +12,7 @@ body {
     background-color: gray
 }
 
+
 h1 {
     margin: 10px 0;
     color: #fff;
@@ -23,6 +24,11 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 /* Showcase */
@@ -47,6 +53,9 @@ ul {
 @media (max-width: 800px){
     .service-container{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .background-image{
+        width: fit-content;
     }
 }
 
