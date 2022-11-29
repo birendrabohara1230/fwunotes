@@ -9,7 +9,7 @@ body{
 }
 
 .showcase{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 h2{
@@ -37,9 +37,9 @@ h2{
 }
 
 .showcase-container div{
-    width: 280px;
+    width: 320px;
     height: 200px;
-    background-color: white;
+    background-color: rgb(245, 241, 241);
     border-radius: 10px;
     text-align: center;
 }
