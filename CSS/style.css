@@ -31,6 +31,12 @@ p{
     font-size: 15px;
 }
 
+/* Background image */
+.background-image{
+    min-width: 100%;
+    height: auto;
+}
+
 /* Showcase */
 
 .service h1 {
