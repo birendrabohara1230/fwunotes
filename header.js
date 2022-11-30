@@ -9,3 +9,8 @@ toggleButton.addEventListener('click', () => {
 
 
 /* Changing the background of the clicked year */
+
+function changeBackground(){
+   document.querySelector('#y2075').style.backgroundColor = 'blue';
+   document.querySelector('#y2075').style.color = 'white';
+}

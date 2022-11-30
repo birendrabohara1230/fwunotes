@@ -18,7 +18,7 @@
 
 @media (max-width: 600px){
     .container{
-        height: 2700px;
+        height: 2800px;
     }
 }
 
@@ -56,11 +56,6 @@
     padding: 5px;
     margin: 5px;
     color: black;
-}
-
-.year:active{
-    background-color: blue;
-    color: white;
 }
 
 .paper-sub-header{
