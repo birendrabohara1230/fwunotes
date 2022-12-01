@@ -79,7 +79,9 @@ p{
 
 .service-container img {
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 15px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 .service-container p {
