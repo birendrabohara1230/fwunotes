@@ -94,3 +94,12 @@
 table th, td{
     border: 1px solid black;
 }
+.active button {
+    border-radius: 10px;
+    background-color:green;
+    width: 65px;
+    height: 30px;
+    border: none;
+    
+    
+}
