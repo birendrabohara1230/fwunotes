@@ -166,3 +166,18 @@ p{
     text-decoration: none;
     color: white;
 }
+.footer-container div p a img
+{
+    width: 30px;
+}
+.find-us img
+{
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+.find-us p a 
+{
+    position: relative;
+    bottom: 10px;
+}
