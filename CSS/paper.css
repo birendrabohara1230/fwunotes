@@ -87,6 +87,11 @@
   border-collapse: collapse;
 }
 
+table tr td{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .questions li{
     line-height: 35px;
 }
