@@ -22,6 +22,7 @@
     }
 }
 
+
 .main{
     display: flex;
     justify-content: center;
@@ -88,8 +89,8 @@
 }
 
 table tr td{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .questions li{
@@ -98,6 +99,10 @@ table tr td{
 
 table th, td{
     border: 1px solid black;
+}
+
+table{
+    width: auto;
 }
 .active button {
     border-radius: 10px;
