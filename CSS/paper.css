@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
 
-.container{
+.container {
     font-family: 'Times New Roman', Times, serif;
     width: 880px;
     height: auto;
@@ -17,20 +17,20 @@
 }
 
 
-@media (max-width: 600px){
-    .container{
+@media (max-width: 600px) {
+    .container {
         height: auto;
     }
 }
 
-@media (min-width: 600px){
-    table tr td{
+@media (min-width: 600px) {
+    table tr td {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     color: rgb(34, 26, 26);
@@ -42,47 +42,48 @@
     line-height: 20px;
     font-weight: 400;
 }
-.paper-header{
+
+.paper-header {
     text-align: center;
 }
 
 
-.paper-year{
+.paper-year {
     display: flex;
     height: 50px;
     justify-content: center;
     align-items: center;
 }
 
-.paper-year div button{
+.paper-year div button {
     border-radius: 10px;
     padding: 4px;
     width: 60px;
 }
 
-.paper-year ul a{
+.paper-year ul a {
     padding: 5px;
     margin: 5px;
     color: black;
 }
 
-.paper-sub-header{
+.paper-sub-header {
     display: flex;
     justify-content: space-between;
 }
 
-.info-message{
+.info-message {
     font-style: italic;
 }
 
-.group{
+.group {
     margin: 10px;
     text-align: center;
     color: black;
     font-size: larger;
 }
 
-.group-A-questions{
+.group-A-questions {
     display: flex;
     justify-content: space-between;
     margin: 20px;
@@ -93,18 +94,30 @@
     margin-left: 50px;
     border: 1px solid black;
     border-collapse: collapse;
-  }
-  
-.questions li{
+}
+
+.questions li {
     line-height: 35px;
 }
 
-table th, td{
+table th,
+td {
     border: 1px solid black;
 }
 
-table{
+table {
     width: auto;
 }
 
-
+#myDIV button {
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #myDIV button.active {
+    background-color: black;
+    color: white;
+  }
+  
